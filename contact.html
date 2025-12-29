@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styme.css">
+</head>
+
+<body>
+    <!-- Header section starts here -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="Images/libaration-war-logo1.png" alt=""
+                        style="height: 100px; width: 100%;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 fw-bold" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="document.html">Document</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interview.html">Interview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="photograph.html">Photographs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex fw-bold" role="search">
+                        <input class="form-control me-2" style="background-color: #ff0000c2; border: 2px solid #49c949;"
+                            type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header section ends here -->
+
+    <!-- Contact section starts here -->
+    <div class="contact-section py-5">
+        <div class="container">
+            <div class="contact-form">
+                <h2 class="text-center mb-4">Share your feedback</h2>
+                <form>
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <!-- Subject -->
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+                    </div>
+
+                    <!-- Feedback/Message -->
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Feedback / Message</label>
+                        <textarea class="form-control" style="width: 100%; height: 150px; resize: none;" id="message" rows="5"
+                            placeholder="Share your feedback, inquiry, or contribution..." required></textarea>
+                    </div>
+
+                    <!-- File Upload -->
+                    <div class="mb-3">
+                        <label for="file" class="form-label">Upload Document/Photo</label>
+                        <input class="form-control" type="file" id="file">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <p><strong>Direct Contact:</strong></p>
+                    <p>Email: iamrakibshovon@gmail.com</p>
+                    <p>Phone: +8801771073553</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact section ends here -->
+
+    <!-- Footer section starts here -->
+    <footer class="bg-success text-danger fw-extrabold text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Liberation War. All rights reserved to RIShovon.</p>
+        </div>
+    </footer>
+    <!-- Footer section ends here -->
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

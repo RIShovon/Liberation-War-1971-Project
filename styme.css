@@ -1,0 +1,84 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
+.btn {
+    border: 2px solid #49c949;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+.btn:hover {
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}
+
+.home-banner {
+    background-image: url('images/Banner.jpg');
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-banner .container .content {
+    background-color: #024e0269;
+    color: white;
+    backdrop-filter: blur(5px);
+    font-weight: 500;
+}
+
+.home-banner .container .content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ff0000e0;
+}
+
+h2 {
+    font-weight: 700;
+    color: #ff0000e0;
+    text-transform: capitalize;
+}
+
+h2:hover {
+    color: green;
+}
+
+.importent-document .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+}
+
+.importent-document .card:hover {
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photographs .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+}
+
+.photographs .card:hover {
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 50px auto;
+    background: rgb(146, 212, 146);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: green;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: green;
+
+}
